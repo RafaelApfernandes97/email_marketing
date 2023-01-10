@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: #0AC775;
+}
+
+.img {
+    width: 100%;
+}
+
+.body {
+    background-color: rgba(128, 128, 128, 0.233);
+}
+
+.container {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 0%;
+}
+
+.secao01 {
+    background-image: url(/img/man-with-copy-space-and-futuristic-device.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+}
+
+.corpo_secao01 {
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+.titulo {
+    
+    width: 70%;
+    margin-top: 5rem;
+}
+
+.paragrafo {
+    font-size: 12px;
+    width: 50%;
+}
+
+.botao {
+    
+    background-color: #0AC775;
+    border-color: #0AC775;
+    border-radius: 30px;
+    
+}
+
+
+.secao02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:2rem 3rem;
+}
+
+
+.secao03 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:2rem 3rem;
+}
+
+.card_ {
+    text-align: center;
+}
+
+.secao04 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:2rem 3rem;
+}
+
+
+.img_secao04 {
+    width: 250px;
+}
+
+
+.secao05 {
+    text-align: center;
+    padding:2rem 3rem;
+}
+
+.secao06 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:2rem 3rem;
+}
+
+.secao07 {
+    text-align: center;
+    padding:2rem 3rem;
+}
+
+.secao08 {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding:2rem 3rem;
+}
+
+.img_float {
+    float: left;
+    border: transparent thin solid;
+    margin: 0px 10px 10px 0;
+    max-width:50px;
+}
+
+.card_float {
+    margin-bottom: 4rem;
+}
+
+

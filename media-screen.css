@@ -1,0 +1,14 @@
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    .corpo_secao01 {
+        margin-bottom: 5rem;
+    }
+
+}

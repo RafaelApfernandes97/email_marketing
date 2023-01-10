@@ -39,6 +39,10 @@ p {
     width: 100%;
 }
 
+.img_card {
+    width: 40%;
+}
+
 .body {
     background-color: rgba(128, 128, 128, 0.233);
 }
@@ -49,7 +53,7 @@ p {
     padding: 0%;
 }
 
-.secao01 {
+.sessao01 {
     background-image: url(/img/man-with-copy-space-and-futuristic-device.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +61,7 @@ p {
     color: white;
 }
 
-.corpo_secao01 {
+.corpo_sessao01 {
     margin-bottom: 5rem;
     margin-left: 2rem;
 }
@@ -82,14 +86,14 @@ p {
 }
 
 
-.secao02 {
+.sessao02 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding:2rem 3rem;
 }
 
 
-.secao03 {
+.sessao03 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding:2rem 3rem;
@@ -99,38 +103,42 @@ p {
     text-align: center;
 }
 
-.secao04 {
+.sessao04 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding:2rem 3rem;
 }
 
 
-.img_secao04 {
+.img_sessao04 {
     width: 250px;
 }
 
 
-.secao05 {
+.sessao05 {
     text-align: center;
     padding:2rem 3rem;
 }
 
-.secao06 {
+.sessao06 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding:2rem 3rem;
 }
 
-.secao07 {
+.sessao07 {
     text-align: center;
     padding:2rem 3rem;
 }
 
-.secao08 {
+.sessao08 {
     display: grid;
     grid-template-columns:  1fr 1fr;
     padding:2rem 3rem;
+}
+
+.img_sessao08 {
+    margin-bottom: 10px;
 }
 
 .img_float {

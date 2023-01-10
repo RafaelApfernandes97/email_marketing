@@ -7,8 +7,88 @@
 
 
 @media only screen and (max-width: 400px) {
+    .ocultar{
+        display: none;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
     .corpo_secao01 {
         margin-bottom: 5rem;
+    }
+
+    .sessao02 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:1.5rem 3rem;
+    }
+    
+    
+    .sessao03 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding:1.5rem;
+    }
+
+   .sessao03 h5 {
+        font-size: 14px;
+   }
+    
+    .card_ {
+        text-align: center;
+
+    }
+    
+    .sessao04 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding:1.5rem 3rem;
+    }
+
+    .img_mobile {
+        position: relative;
+        left: 25%;
+        width: 50%;
+
+    }
+    
+    
+    
+    
+    
+    .sessao05 {
+        text-align: center;
+        padding:1.5rem 3rem;
+    }
+    
+    .sessao06 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding:1.5rem 3rem;
+    }
+    
+    .sessao07 {
+        text-align: center;
+        padding:1.5rem 3rem;
+    }
+    
+    .sessao08 {
+        display: grid;
+        grid-template-columns:  1fr;
+        padding:1.5rem 3rem;
+    }
+    
+    .img_float {
+        float: left;
+        border: transparent thin solid;
+        margin: 0px 10px 10px 0;
+        max-width:50px;
+    }
+    
+    .card_float {
+        margin-bottom: 2rem;
     }
 
 }
